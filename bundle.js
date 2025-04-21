@@ -118,6 +118,62 @@ function getPortfolioContent() {
     <section id="portfolio">
     
         <div class="project-box">
+            <h2 class="project-title">Webserver-rs</h2>
+            <a href="https://github.com/eguefif/ws-echoserver-rust" class="github-link" target="_blank">
+                <img src="./images/github.svg" alt="GitHub" class="github-icon" />
+            </a>
+
+            <div class="project-info">
+                <img src="images/webserver.png" alt="Project 1" class="project-img">
+                <div class="project-text">
+                    <div class="project-description">
+                        I love learning about networking. I'm always thrilled when I manage to make a protocol work with a regular client. In this case, I made a basic web server that handles chunked packets and compression. It takes a handler function as an argument and returns a Response. I use this library in my career manager program.
+                    </div>
+                    <ul class="skills-list">
+                    
+                            <li>HTTP</li>
+                    
+                            <li>parsing</li>
+                    
+                            <li>Rust</li>
+                    
+                            <li>binary data</li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="project-box">
+            <h2 class="project-title">WebSocket Echo Server</h2>
+            <a href="https://github.com/eguefif/ws-echoserver-rust" class="github-link" target="_blank">
+                <img src="./images/github.svg" alt="GitHub" class="github-icon" />
+            </a>
+
+            <div class="project-info">
+                <img src="images/websocket-rs.png" alt="Project 1" class="project-img">
+                <div class="project-text">
+                    <div class="project-description">
+                        This project is all about learning WebSocket. I learned about what an HTTP upgrade is. How the handshake is formed and basic framing. It was a good exercise to learn how to parse bytes in Rust. The client is not quite done, but the server is operational.
+                    </div>
+                    <ul class="skills-list">
+                    
+                            <li>websocket</li>
+                    
+                            <li>http</li>
+                    
+                            <li>rust</li>
+                    
+                            <li>thread</li>
+                    
+                            <li>parsing</li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="project-box">
             <h2 class="project-title">GameBoy Emulator</h2>
             <a href="https://github.com/eguefif/game_boy_emulator" class="github-link" target="_blank">
                 <img src="./images/github.svg" alt="GitHub" class="github-icon" />
