@@ -120,6 +120,33 @@ function getPortfolioContent() {
     <section id="portfolio">
     
         <div class="project-box">
+            <h2 class="project-title">Ping</h2>
+            <a href="https://github.com/eguefif/ping" class="github-link" target="_blank">
+                <img src="./images/github.svg" alt="GitHub" class="github-icon" />
+            </a>
+
+            <div class="project-info">
+                <img src="images/Screenshot from 2025-05-04 11-11-45.png" alt="Project 1" class="project-img">
+                <div class="project-text">
+                    <div class="project-description">
+                        This ping project was an opportunity to learn more about networking, the ICMP protocol, and the raw socket API. I also implemented a DNS resolver. This ping program can only ping an IP or a FQDN address. When the program ends, it displays statistics for the pings.
+                    </div>
+                    <ul class="skills-list">
+                    
+                            <li>C</li>
+                    
+                            <li>ICMP</li>
+                    
+                            <li>IP</li>
+                    
+                            <li>raw_socket</li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="project-box">
             <h2 class="project-title">Webserver-rs</h2>
             <a href="https://github.com/eguefif/ws-echoserver-rust" class="github-link" target="_blank">
                 <img src="./images/github.svg" alt="GitHub" class="github-icon" />
