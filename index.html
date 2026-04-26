@@ -701,14 +701,14 @@ html {
                 <article tabindex="0" role="button" class="project-card" data-modal="modal-3">
                     <div class="social-icons">
                         
-                        <a href="https://github.com/eguefif/game_boy_emulator" target="_blank" class="github-link" onclick="event.stopPropagation()">
+                        <a href="https://github.com/eguefif/typosquatch" target="_blank" class="github-link" onclick="event.stopPropagation()">
                             <img src="images/github-mark.svg" alt="GitHub">
                         </a>
                     </div>
-                    <h2>GameBoy Emulator</h2>
-                    <p>This was my first Rust project. I first emulated the CPU, then the clock, the interrupt and finally the Pixel Processing Unit (PPU). I've learned so much about the interaction of the machine and low-level programs that handle interruptions.</p>
-                    <div class="project-tech"><span class="tech-badge">Rust</span></div>
-                    <img src="images/3-1.webp" alt="GameBoy Emulator" class="project-image">
+                    <h2>Basic DNS Typosquatch Checker</h2>
+                    <p>Build an overview understanding of Go — goroutines, channels, error handling, and basic data structures — while reviewing how DNS works and what the different record types are.</p>
+                    <div class="project-tech"><span class="tech-badge">Go</span></div>
+                    <img src="images/3-1.png" alt="Basic DNS Typosquatch Checker" class="project-image">
                 </article>
 
                 <!-- Project Card 4 -->
@@ -816,23 +816,18 @@ Anytime I merge a branch on master, the new version gets automatically deployed 
         <div class="modal-content">
             <div class="modal-header">
                 <div class="modal-title-container">
-                    <h2>GameBoy Emulator</h2>
-                    <div class="modal-tech"><span class="tech-badge">Rust</span></div>
+                    <h2>Basic DNS Typosquatch Checker</h2>
+                    <div class="modal-tech"><span class="tech-badge">Go</span></div>
                 </div>
                 <button class="close-modal" aria-label="Close modal">&times;</button>
             </div>
             <div class="modal-body">
-                <div class="modal-section"><img src="images/3-1.webp" alt="" class="modal-section-image-left"><p>This was my first Rust project. I first emulated the CPU, then the clock, the interrupt and finally the Pixel Processing Unit (PPU). I've learned so much about the interaction of the machine and low-level programs that handle interruptions.</p>
-<h2>Goals</h2>
-<p>I created this project to learn three skills:
-* Rust programming fundamentals including ownership, borrowing, and the type system
-* Computer architecture and low-level programming concepts through hardware emulation</p>
+                <div class="modal-section"><img src="images/3-1.png" alt="" class="modal-section-image-left"><h2>Goals</h2>
+<p>Build an overview understanding of Go — goroutines, channels, error handling, and basic data structures — while reviewing how DNS works and what the different record types are.</p>
 <h2>Spotlights</h2>
-<p>I am particularly proud of getting Tetris to run fully playable. Achieving this milestone required implementing accurate CPU instruction execution, proper timing cycles, correct PPU behavior for tile-based graphics, and synchronized screen refresh rates. Seeing the iconic Tetris pieces fall smoothly on the screen for the first time was incredibly rewarding and confirmed that all the core systems were working together correctly.</p>
-<h2>Current State</h2>
-<p>The emulator is only able to render Tetris correctly. Other games do not work. I need to rework the PPU emulation to allow other games to work. The sound is not working either.</p>
+<p>Concurrent domain scanning using a pipeline pattern: one goroutine distributes jobs across workers, another gathers the results. Channels are buffered to twice the size of the worker pool to avoid congestion and keep the pipeline flowing without unnecessary blocking.</p>
 <h2>Lessons Learned</h2>
-<p>This project was a deep dive into low-level programming. I learned about memory representation, machine architecture, assembly and clocks. I also learned a lot about reading others' code. There isn't much documentation about how the GameBoy works. Most of the emulator authors are electronics geeks who reverse-engineered the chips and wrote the emulator. The documentation is in their code. It was insightful.</p></div>
+<p>Go's standard library is powerful enough to build network tools without third-party dependencies. Goroutines make concurrent request handling straightforward, and that combination explains why Go is so widely used for web services.</p></div>
             </div>
         </div>
     </div>
